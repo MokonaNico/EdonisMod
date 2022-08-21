@@ -1,3 +1,6 @@
 {
-  "item.edonis.citrine": "Citrine"
+  "item.edonis.citrine": "Citrine",
+  "block.edonis.citrine_block": "Citrine Block",
+  "block.edonis.citrine_ore": "Citrine Ore",
+  "itemGroup.edonistab": "Edonis"
 }
