@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "edonis:citrine_block"
+    }
+  ],
+  "result": {
+    "item": "edonis:citrine",
+    "count": 9
+  }
+}

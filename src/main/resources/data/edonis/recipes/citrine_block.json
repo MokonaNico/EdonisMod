@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "edonis:citrine"
+    }
+  },
+  "result": {
+    "item": "edonis:citrine_block"
+  }
+}
