@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "edonis:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "edonis:sapphire",
+    "count": 9
+  }
+}

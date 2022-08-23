@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "edonis:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "edonis:ruby",
+    "count": 9
+  }
+}

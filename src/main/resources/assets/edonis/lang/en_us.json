@@ -1,6 +1,13 @@
 {
   "item.edonis.citrine": "Citrine",
+  "item.edonis.ruby": "Ruby",
+  "item.edonis.sapphire": "Sapphire",
   "block.edonis.citrine_block": "Citrine Block",
   "block.edonis.citrine_ore": "Citrine Ore",
+  "block.edonis.deepslate_citrine_ore": "Deepslate Citrine Ore",
+  "block.edonis.ruby_block": "Ruby Block",
+  "block.edonis.netherack_ruby_ore": "Netherack Ruby Ore",
+  "block.edonis.sapphire_block": "Sapphire Block",
+  "block.edonis.endstone_sapphire_ore": "End Stone Sapphire Ore",
   "itemGroup.edonistab": "Edonis"
 }

@@ -2,6 +2,11 @@
   "replace": false,
   "values": [
     "edonis:citrine_ore",
-    "edonis:citrine_block"
+    "edonis:citrine_block",
+    "edonis:deepslate_citrine_ore",
+    "edonis:ruby_block",
+    "edonis:netherack_ruby_ore",
+    "edonis:sapphire_block",
+    "edonis:endstone_sapphire_ore"
   ]
 }
