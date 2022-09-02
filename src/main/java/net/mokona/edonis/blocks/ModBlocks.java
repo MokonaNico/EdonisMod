@@ -1,4 +1,4 @@
-package net.mokona.edonis.block;
+package net.mokona.edonis.blocks;
 
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -12,8 +12,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.mokona.edonis.EdonisMod;
-import net.mokona.edonis.item.ModCreativeModeTab;
-import net.mokona.edonis.item.ModItems;
+import net.mokona.edonis.items.ModCreativeModeTab;
+import net.mokona.edonis.items.ModItems;
 
 import java.util.function.Supplier;
 
@@ -58,6 +58,20 @@ public class ModBlocks {
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(5,8)));
 
+    // ----------------------
+    // MARBLE
+    // ----------------------
+    public static final RegistryObject<Block> MARBLE_BLOCK = registerBlock("marble_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> MARBLE_POLISHED_BLOCK = registerBlock("marble_polished_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> MARBLE_BRICK = registerBlock("marble_brick",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

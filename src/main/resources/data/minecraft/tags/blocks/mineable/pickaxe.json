@@ -7,6 +7,9 @@
     "edonis:ruby_block",
     "edonis:netherack_ruby_ore",
     "edonis:sapphire_block",
-    "edonis:endstone_sapphire_ore"
+    "edonis:endstone_sapphire_ore",
+    "edonis:marble_block",
+    "edonis:marble_brick",
+    "edonis:marble_polished_block"
   ]
 }

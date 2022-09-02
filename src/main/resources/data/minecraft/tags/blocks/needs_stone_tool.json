@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-
+    "edonis:marble_block",
+    "edonis:marble_brick",
+    "edonis:marble_polished_block"
   ]
 }

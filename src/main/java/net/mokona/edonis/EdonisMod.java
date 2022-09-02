@@ -6,8 +6,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.mokona.edonis.block.ModBlocks;
-import net.mokona.edonis.item.ModItems;
+import net.mokona.edonis.blocks.ModBlocks;
+import net.mokona.edonis.items.ModItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file

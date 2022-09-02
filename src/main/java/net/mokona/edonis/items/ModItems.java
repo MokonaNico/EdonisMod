@@ -1,4 +1,4 @@
-package net.mokona.edonis.item;
+package net.mokona.edonis.items;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;

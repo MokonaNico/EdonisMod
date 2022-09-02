@@ -1,4 +1,4 @@
-package net.mokona.edonis.item;
+package net.mokona.edonis.items;
 
 import net.minecraft.world.food.FoodProperties;
 

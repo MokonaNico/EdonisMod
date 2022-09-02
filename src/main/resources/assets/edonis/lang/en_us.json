@@ -10,5 +10,8 @@
   "block.edonis.netherack_ruby_ore": "Netherack Ruby Ore",
   "block.edonis.sapphire_block": "Sapphire Block",
   "block.edonis.endstone_sapphire_ore": "End Stone Sapphire Ore",
+  "block.edonis.marble_block": "Marble",
+  "block.edonis.marble_brick": "Marble Brick",
+  "block.edonis.marble_polished_block": "Marble Polished",
   "itemGroup.edonistab": "Edonis"
 }
