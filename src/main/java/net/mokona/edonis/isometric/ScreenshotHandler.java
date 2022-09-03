@@ -20,7 +20,7 @@ import java.util.Date;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
-import static org.lwjgl.glfw.GLFW.GLFW_KEY_F9;
+import static org.lwjgl.glfw.GLFW.*;
 
 public class ScreenshotHandler {
 
@@ -30,15 +30,11 @@ public class ScreenshotHandler {
     private Path taskFile;
     private RenderTickTask task;
 
-    public ScreenshotHandler(){
-        ClientRegistry.registerKeyBinding(null); // TODO !!!!
-    }
-
     @SubscribeEvent
     public void onKeyInput(InputEvent.KeyInputEvent event){
         if (task != null) return;
 
-        if (event.getKey() == GLFW_KEY_F9){
+        if (event.getKey() == GLFW_KEY_F9 && event.getAction() == GLFW_PRESS){
             taskFile = getScreenshotFile();
             task = new CaptureTask(taskFile);
         }
@@ -76,12 +72,9 @@ public class ScreenshotHandler {
         int i = 0;
         Path file;
         do {
-            file = dir.resolve(String.format("huge_%s_%04d.tga",
-                    DATE_FORMAT.format(new Date()), i++));
+            file = dir.resolve(String.format("huge_%s_%04d.tga", DATE_FORMAT.format(new Date()), i++));
         } while (Files.exists(file));
 
         return file;
     }
-
-
 }
