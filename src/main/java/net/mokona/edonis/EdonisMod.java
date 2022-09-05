@@ -7,7 +7,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.mokona.edonis.blocks.ModBlocks;
-import net.mokona.edonis.isometric.ScreenshotHandler;
 import net.mokona.edonis.items.ModItems;
 import org.slf4j.Logger;
 
@@ -26,11 +25,8 @@ public class EdonisMod {
         ModBlocks.register(eventBus);
         eventBus.addListener(this::setup);
 
-        ScreenshotHandler screenshotHandler = new ScreenshotHandler();
-
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-        MinecraftForge.EVENT_BUS.register(screenshotHandler);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
